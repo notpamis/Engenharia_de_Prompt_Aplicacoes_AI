@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNn9NJg8tf6tCu6UdLbEY6g",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/notpamis/Engenharia_de_Prompt_Aplicacoes_AI/blob/main/aula06\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "calculadora simples"
+      ],
+      "metadata": {
+        "id": "09ze0kg9fOBB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def perform_and_print_operation(title, operator_char, func, num):\n",
+        "    print(f\"\\n{title.upper()}\")\n",
+        "    for i in range(1, 11):\n",
+        "        try:\n",
+        "            result = func(num, i)\n",
+        "            print(f\"{num} {operator_char} {i} = {result}\")\n",
+        "        except ZeroDivisionError:\n",
+        "            print(f\"{num} {operator_char} {i} = Indefinido (divisão por zero)\")\n",
+        "\n",
+        "num = int(input(\"Digite um número: \"))\n",
+        "\n",
+        "perform_and_print_operation(\"Soma\", \"+\", lambda x, y: x + y, num)\n",
+        "perform_and_print_operation(\"Subtração\", \"-\", lambda x, y: x - y, num)\n",
+        "perform_and_print_operation(\"Multiplicação\", \"*\", lambda x, y: x * y, num)\n",
+        "perform_and_print_operation(\"Divisão\", \"/\", lambda x, y: x / y, num)"
+      ],
+      "metadata": {
+        "id": "PwNcMJvaecVJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
