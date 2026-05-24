@@ -1,5 +1,3 @@
----
-
 # 🐾 Projeto Módulo 3 – Low Code / No Code / Vibecode
 
 > **Disciplina:** Engenharia de Prompt e Aplicações em IA
