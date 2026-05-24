@@ -1,8 +1,11 @@
 # 🐾 Projeto Módulo 3 – Low Code / No Code / Vibecode
 
 > **Disciplina:** Engenharia de Prompt e Aplicações em IA
+
 > **Professor(a):** Kadidja Valéria
+
 > **Data:** 11/05/2026
+
 > **Turma:** ENG. SOFT + S.I – 6ª feira – SEDE UDF
 
 ---
