@@ -1,5 +1,3 @@
-Aqui está o conteúdo completo do README:
-
 ---
 
 # 🐾 Projeto Módulo 3 – Low Code / No Code / Vibecode
