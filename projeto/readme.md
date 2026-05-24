@@ -143,15 +143,5 @@ A ferramenta foi escolhida por permitir gerar uma aplicação web completa em HT
 
 ---
 
-## 🚀 Próximos Passos
-
-- [ ] Conectar a um backend real (Supabase) para persistência entre dispositivos
-- [ ] Adicionar sistema de autenticação com Google OAuth real
-- [ ] Implementar notificações push nativas
-- [ ] Criar versão mobile (PWA)
-- [ ] Adicionar sistema de avaliação pós-adoção
-- [ ] Integrar com WhatsApp Business API para contato direto
-
----
 
 Feito com ❤️ por Mikeias, Paloma e Shira — UDF 2026
